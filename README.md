@@ -2,7 +2,7 @@
 
 
 Expense Tracker: A simple Python library for managing your finances
-This README file describes Expense Tracker, a Python library that provides simple classes and methods for managing your personal expenses.This README also  explains clone  and run the code on your own PC, and highlights the key features of your classes
+This README file describes Expense Tracker, a Python library that provides simple classes and methods for managing your personal expenses.This README also explains how to clone  and run the code on your own PC, and highlights the key features of your classes
 
 Project Features:
 * 2 classes , class 1 : Expense has 3 methods, class 2 (ExpenseDatabase) has 6 methods
