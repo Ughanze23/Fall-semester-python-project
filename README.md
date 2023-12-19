@@ -10,7 +10,7 @@ Project Features:
 * Create expense objects with title, amount, and timestamps.
 * Update existing expenses by changing title or amount.
 * return expense as a dictionary
-### ExoenseDatabase Class :  
+### ExpenseDatabase Class :  
 * Store expenses in a database-like structure.
 * Retrieve expenses by ID or title.
 * Delete expense from database
@@ -27,7 +27,7 @@ Classes:
 Expense: Represents an individual expense with title, amount, ID, creation and update timestamps.
 ExpenseDatabase: Represents a collection of Expenses, offering methods to add, remove, retrieve, and export expenses.
 Example Usage:
-
+```
 # Create some expenses
 expense1 = Expense("Groceries", 4500)
 expense2 = Expense("Fuel", 20000)
@@ -46,4 +46,4 @@ retrieved_expense = db.get_expense_by_id(expense1.id)
 # Get all expenses as a list of dictionaries
 expense_dicts = db.to_dict()
 
-# ... and so on
+# ... and so on ```
