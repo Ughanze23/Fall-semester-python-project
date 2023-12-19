@@ -85,7 +85,7 @@ class ExpenseDatabase:
 
 
 if __name__ == '__main__':
-  """to demonstrate how to use the classes and methods , there a 5 static instances of class expense created below """
+  """to demonstrate how to use the classes and methods , there are 5 static instances of class expense created below """
 
   expense1 = Expense("groceries",4500)
   expense2 = Expense("groceries",10000)
