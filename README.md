@@ -6,11 +6,11 @@ This README file describes Expense Tracker, a Python library that provides simpl
 
 Project Features:
 * 2 classes , class 1 : Expense has 3 methods, class 2 (ExpenseDatabase) has 6 methods
-Expense Class:
+### Expense Class:
 * Create expense objects with title, amount, and timestamps.
 * Update existing expenses by changing title or amount.
 * return expense as a dictionary
-ExoenseDatabase Class :  
+### ExoenseDatabase Class :  
 * Store expenses in a database-like structure.
 * Retrieve expenses by ID or title.
 * Delete expense from database
