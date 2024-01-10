@@ -20,7 +20,7 @@ class Expense:
       self.updated_at = datetime.utcnow()
       print("updated Expense {} title to {}".format(self.id,self.title))
     
-    elif amount:
+    if amount:
       self.amount = float(amount)
       self.updated_at = datetime.utcnow()
       print("updated Expense amount to {}".format(self.amount))
